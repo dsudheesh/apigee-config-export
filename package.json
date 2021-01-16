@@ -1,6 +1,6 @@
 {
   "name": "apigee-config-export",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple utility that exports the Apigee Edge environment configurations such as caches, key-value-maps etc into individual JSON files. This ",
   "main": "index.js",
   "scripts": {
