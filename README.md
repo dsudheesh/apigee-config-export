@@ -3,6 +3,26 @@ A nodejs tool to export the Apigee Edge environment configurations to individual
 
 The exported files can be used for automating config deployments using the Apigee Config Maven Plugin as well as CI/CD tools such as Jenkins.
 
+After executing the command to export the configuration, it will create the following directory strucuture that would contain the config files.
+ 
+```
+edge/
+    env/
+        test/
+            caches.json
+            kvms.json
+        prod/
+            targetserver.json
+            kvms.json
+        env1/
+        env2/
+        .
+        .
+        .
+        envN
+```
+
+
 ## Installation
 ```
 npm install -g apigee-config-export
